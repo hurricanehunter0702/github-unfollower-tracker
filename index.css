@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(155, 155, 155);
+}
+
+#container {
+  width: 1200px;
+  margin: auto;
+  padding-top: 60px;
+}
+
+#title {
+  text-align: center;
+}
+
+#button-container {
+  text-align: center;
+}
+
+#checkButton {
+  margin-bottom: 16px;
+  padding: 10px;
+  border-radius: 4px;
+  border: none;
+  color: rgb(121, 0, 0);
+  font-size: 28px;
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+#label {
+  font-size: 24px;
+  color: rgb(121, 0, 0);
+}
+
+#resultContainer {
+  font-size: 18px;
+  color: rgb(121, 0, 0);
+}
