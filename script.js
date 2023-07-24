@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var checkButton = document.getElementById('checkButton');
   var resultContainer = document.getElementById('resultContainer');
   var accessToken = '';
+  var username = '';
 
   let nextPageLink
 
@@ -66,7 +67,6 @@ document.addEventListener('DOMContentLoaded', function () {
 
   checkButton.addEventListener('click', async function () {
     resultContainer.innerHTML = 'Checking...';
-    var username = '';
     fetchFollowing(`https://api.github.com/users/${username}/following`)
       .then((followingList) => {
         console.log('followingLinst=============>===========>', followingList)
