@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', function () {
   var checkButton = document.getElementById('checkButton');
   var resultContainer = document.getElementById('resultContainer');
-  var accessToken = '';
   var username = '';
+  var accessToken = '';
 
   let nextPageLink
 
